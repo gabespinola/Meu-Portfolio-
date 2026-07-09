@@ -93,6 +93,15 @@ const projetos = [
     imgStyle: "background-image: url('imagens/financeiro-port.png');",
     linkDemo: "#",
     linkGithub: "https://github.com/gabespinola/Sistema-de-controle-financeiro-Fullstack"
+  },
+  {
+    titulo: "Landing Page - Clínica de Fisioterapia",
+    tag: "HTML/CSS/JS",
+    descricao: "Landing Page desenvolvida para uma fisioterapeuta, com foco em apresentação profissional e captação de pacientes. O projeto conta com design responsivo, navegação intuitiva, integração com WhatsApp e e-mail, formulário de contato via Formspree, menu mobile, seções de benefícios, serviços e contato, além de layout moderno e otimizado para proporcionar uma boa experiência em dispositivos móveis e desktop. Desenvolvida utilizando HTML, CSS e JavaScript, com foco em desempenho, acessibilidade e usabilidade.",
+    techs: ["HTML", "CSS", "JavaScript", "Formspree"],
+    imgStyle: "background-image: url('imagens/fisioterapia-port.jpeg');",
+    linkDemo: "https://willowy-puffpuff-1fde3b.netlify.app/",
+    linkGithub: "https://github.com/gabespinola/Landding-page-"
   }
 ];
 
