@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Espínola | Desenvolvedor Web</title>
+    <meta name="description" content="Portfólio de Gabriel Espínola, desenvolvedor em formação com projetos em Angular, React, Java, Spring Boot e landing pages para profissionais da saúde.">
+    <meta name="theme-color" content="#2d4fbe">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="site-header" id="topo">
+    <div class="container header-inner">
+        <a class="logo" href="#inicio" aria-label="Gabriel Espínola, início">
+            <img src="imagens/gse-1.png" alt="Logo Gabriel Espínola">
+        </a>
+
+        <nav class="menu-desktop" aria-label="Principal">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <a class="btn btn-primary btn-header" href="#contato">Entrar em contato</a>
+
+        <button class="btn-abrir-menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuMobile">
+            <i class="bi bi-list" aria-hidden="true"></i>
+        </button>
+    </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay"></div>
+<aside class="menu-mobile" id="menuMobile" aria-label="Menu" aria-hidden="true">
+    <button class="btn-fechar" type="button" aria-label="Fechar menu">
+        <i class="bi bi-x-lg" aria-hidden="true"></i>
+    </button>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</aside>
+
+<main id="conteudo">
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-texto">
+                <p class="hero-saudacao">Olá, eu sou</p>
+                <h1>Gabriel Espínola</h1>
+                <p class="hero-cargo">Desenvolvedor em formação</p>
+                <p class="hero-desc">
+                    Desenvolvo aplicações web com HTML, CSS, JavaScript, Angular e Java.
+                    Venho do Direito e estou migrando para tecnologia, construindo projetos
+                    reais para evoluir como desenvolvedor.
+                </p>
+
+                <div class="hero-acoes">
+                    <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+                    <a class="btn btn-outline" href="#contato">Entrar em contato</a>
+                </div>
+
+                <p class="hero-stack">HTML, CSS, JavaScript, Angular, React, Java, Spring Boot</p>
+            </div>
+
+            <div class="hero-foto">
+                <img src="imagens/minha foto.jpeg" alt="Foto de Gabriel Espínola" width="400" height="480">
+            </div>
+        </div>
+    </section>
+
+    <!-- ESPECIALIDADES -->
+    <section id="especialidades" class="secao secao-clara">
+        <div class="container">
+            <div class="secao-topo">
+                <h2>O que eu faço</h2>
+                <p>Do visual da página ao servidor que responde por trás dela.</p>
+            </div>
+
+            <div class="especialidades-grid">
+                <article class="especialidade">
+                    <i class="bi bi-window-desktop" aria-hidden="true"></i>
+                    <h3>Websites</h3>
+                    <p>Sites responsivos e fáceis de usar, com foco em desempenho e na experiência de quem acessa.</p>
+                </article>
+                <article class="especialidade">
+                    <i class="bi bi-hdd-rack" aria-hidden="true"></i>
+                    <h3>Back-end</h3>
+                    <p>Lógica de sistemas, APIs REST e bancos de dados, com atenção à segurança e à organização do código.</p>
+                </article>
+                <article class="especialidade">
+                    <i class="bi bi-cloud" aria-hidden="true"></i>
+                    <h3>Cloud</h3>
+                    <p>Em aprendizado: estudando conceitos, serviços e boas práticas para aplicações modernas na nuvem.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="secao">
+        <div class="container sobre-grid">
+            <div class="sobre-texto">
+                <h2>Do Direito para o desenvolvimento de sistemas</h2>
+                <p>
+                    Sou Gabriel Espínola e estou em transição de carreira da área do Direito para
+                    Análise e Desenvolvimento de Sistemas.
+                </p>
+                <p>
+                    Na minha trajetória anterior, desenvolvi análise crítica, organização, atenção
+                    aos detalhes e resolução de problemas. São habilidades que levo para o código
+                    todos os dias.
+                </p>
+                <p>
+                    Hoje aprimoro meus conhecimentos técnicos construindo projetos práticos, com
+                    o objetivo de contribuir no desenvolvimento de sistemas e soluções digitais.
+                </p>
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/gabriel-espinola-862558395" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Gabriel Espínola"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://github.com/gabespinola" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Gabriel Espínola"><i class="bi bi-github" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="stack-painel">
+                <h3>Tecnologias</h3>
+                <dl>
+                    <div>
+                        <dt>Front-end</dt>
+                        <dd>HTML, CSS, JavaScript, TypeScript, Angular, React</dd>
+                    </div>
+                    <div>
+                        <dt>Back-end</dt>
+                        <dd>Java, Spring Boot, Node.js, APIs REST</dd>
+                    </div>
+                    <div>
+                        <dt>Bancos de dados</dt>
+                        <dd>MySQL, PostgreSQL</dd>
+                    </div>
+                    <div>
+                        <dt>Ferramentas</dt>
+                        <dd>Git, GitHub, Netlify, Formspree</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="secao secao-clara">
+        <div class="container">
+            <div class="secao-topo">
+                <h2>Projetos</h2>
+                <p>Sites entregues para clientes e projetos pessoais de estudo. Escolha uma categoria e depois um projeto na lista.</p>
+            </div>
+
+            <div class="categorias" role="group" aria-label="Categoria de projetos">
+                <button type="button" class="categoria-btn" data-categoria="profissional" aria-pressed="true">Profissionais</button>
+                <button type="button" class="categoria-btn" data-categoria="pessoal" aria-pressed="false">Pessoais</button>
+            </div>
+
+            <div class="vitrine">
+                <div class="vitrine-lista" id="vitrineLista" role="tablist" aria-label="Projetos" aria-orientation="vertical"></div>
+
+                <article class="vitrine-painel" id="vitrinePainel" role="tabpanel" tabindex="0">
+                    <div class="vitrine-img" id="vitrineImg" role="img"></div>
+                    <div class="vitrine-corpo">
+                        <span class="vitrine-tag" id="vitrineTag"></span>
+                        <h3 id="vitrineTitulo"></h3>
+                        <p id="vitrineDesc"></p>
+                        <div class="vitrine-techs" id="vitrineTechs"></div>
+                        <div class="vitrine-links" id="vitrineLinks"></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao">
+        <div class="container contato-grid">
+            <div class="contato-texto">
+                <h2>Vamos conversar</h2>
+                <p>
+                    Tem uma vaga, um projeto ou só quer trocar uma ideia? Envie uma mensagem
+                    e eu respondo assim que possível.
+                </p>
+
+                <ul class="contato-lista">
+                    <li>
+                        <i class="bi bi-envelope" aria-hidden="true"></i>
+                        <a href="mailto:gabrielsespinola@gmail.com">gabrielsespinola@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="bi bi-linkedin" aria-hidden="true"></i>
+                        <a href="https://www.linkedin.com/in/gabriel-espinola-862558395" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </li>
+                    <li>
+                        <i class="bi bi-github" aria-hidden="true"></i>
+                        <a href="https://github.com/gabespinola" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+
+            <form id="formContato" action="https://formspree.io/f/mgobqago" method="POST" novalidate>
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" autocomplete="name" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+                <div class="campo">
+                    <label for="telefone">Celular <span>(opcional)</span></label>
+                    <input type="tel" id="telefone" name="telefone" autocomplete="tel">
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <a class="logo-footer" href="#inicio" aria-label="Voltar ao topo">
+            <img src="imagens/gse-1.png" alt="Logo Gabriel Espínola">
+        </a>
+        <p>&copy; <span id="ano"></span> Gabriel Espínola. Todos os direitos reservados.</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/gabriel-espinola-862558395" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/gabespinola" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+            <a href="mailto:gabrielsespinola@gmail.com" aria-label="E-mail"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
